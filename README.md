@@ -5,9 +5,15 @@
 
 
 ------------------------------------------------------------------------
-### The dataset has 1 CSV file: 'data.csv'.
+**The primary purpose of this analysis is to classify features of cancer
+whether malignant or benign.   
+It is significant for the timely detection of problems with breast cancer.  
+To solve this problem I chose the Logistic Regression algorithm of ML.**
+---
 
-#### There are 33 columns and 569 rows in the file:
+*The dataset is a 1 CSV file: **'data.csv'***.
+
+There are 33 columns and 569 rows in the file:
 1) 'id'
 2) 'diagnosis'
 3) 'radius_mean'
@@ -43,10 +49,6 @@
 33) 'Unnamed'
 -------------------------------------------------------------------------
 
-*As I analysed this dataset, I tried to predict the probability
-whether Breast Cancer is a malignant and a benign.*
-
-
 **This project consists from 9 stages**:
 1. Data analysis and preprocessing.
 2. Label Encoder.
@@ -57,14 +59,6 @@ whether Breast Cancer is a malignant and a benign.*
 7. Metrics and Classification report.
 8. Conclusion.
 9. Saving the model.
-
-
-*For classification features of cancer whether a malignant and a benign 
-I used Logistic Regression algorithm.*
-
-
-*It will not be difficult for everyone to understand my project.
-There are comments near in of each of code string.*
 
 
 			------------------
@@ -80,5 +74,3 @@ There are comments near in of each of code string.*
 3. Required libraries:
 - All required libraries are in a requirements.txt file.
 - Write in your terminal: pip install -r requirements.txt.
-
-
