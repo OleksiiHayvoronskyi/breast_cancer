@@ -3,17 +3,14 @@
 			ABOUT Breast Cancer Wisconsin dataset.
 			=======================================
 
-
-------------------------------------------------------------------------
 **The primary purpose of this analysis is to classify features of cancer
 whether malignant or benign.   
 It is significant for the timely detection of problems with breast cancer.  
 To solve this problem I chose the Logistic Regression algorithm of ML.**
----
 
-*The dataset is a 1 CSV file: **'data.csv'***.
+*The dataset is a 1 CSV file: 'data.csv'*.
 
-There are 33 columns and 569 rows in the file:
+**There are 33 columns and 569 rows in the file**:
 1) 'id'
 2) 'diagnosis'
 3) 'radius_mean'
